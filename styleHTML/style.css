@@ -116,7 +116,7 @@ header,footer,main{
 }
 
 .main__container-text {
-    height: 79px;
+    height: auto;
 }
 
 .main__container-text-item {
@@ -124,10 +124,6 @@ header,footer,main{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     margin-top: 200px;
-}
-
-.main__underline {
-    margin-top: 160px;
 }
 
 .main__card-item {
@@ -220,7 +216,7 @@ header,footer,main{
 .main__container-blue-card-item{
     width: 33.333%;
     background-color: rgba(25, 35, 70, 1);
-    margin: 0 120px;
+    margin: 0 130px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -659,5 +655,4 @@ a.main__hobby-button{
     
 
 }
-
 
