@@ -1,0 +1,663 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background: url(/logo/iPadmini-2.png);
+    background-position: top center;
+    background-attachment: fixed;
+    min-height: 668px;
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header,footer,main{
+    width: 100%;
+    min-width: 960;
+}
+
+
+/* ********************************headerStart************************** */
+.header__container {
+    width: 100%;
+    height: 70px;
+    background-color: #347381;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header__inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 70px;
+
+}
+
+.header__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    color: white;
+}
+
+.header__item {
+    width: 200px;
+    display: flex;
+}
+
+.nav__bar {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    padding-right: 10px;
+
+}
+
+.nav__item {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+    font-style: normal;
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+.nav__item:hover {
+    border: 3px solid;
+    transition: .8s;
+    opacity: 93%;
+}
+
+/* ********************************headerEnd************************** */
+
+/* ********************************mainStart************************** */
+
+
+.main__container {
+    width: 100%;
+    margin-top: 100px;
+    height: 41.66vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__container-text {
+    height: 79px;
+}
+
+.main__container-text-item {
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-top: 200px;
+}
+
+.main__underline {
+    margin-top: 160px;
+}
+
+.main__card-item {
+    width: 100%;
+    margin-top: 80px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: flex-end;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.dark__block-item{
+    width: 20%;
+    transition: 0.2s;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.onTop {
+    margin-left: 20px;
+    visibility: hidden;
+    opacity: 70%;
+    cursor: pointer;
+    position: fixed;
+}
+
+.onTop:hover {
+    opacity: 100%;
+}
+
+.headerScroll {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 20;
+}
+
+.preview__img{
+    width: 100%;
+}
+
+.main__container-about-me {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* opacity: 0; */
+}
+
+.container__about-me-item-2 {
+    width: 26%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.container__about-me-item {
+    width: 15%;
+    margin-left: 200px;
+}
+
+
+
+.about__me-text {
+    padding-top: 60px;
+    font-size: 1.1vw;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.main__card-item-2 {
+    width: 100%;
+    padding-left: 50px;
+    /* opacity: 0; */
+}
+
+.main__container-blue-card {
+    max-width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    display: flex;
+    /* opacity: 0; */
+}
+
+.main__container-blue-card-item{
+    width: 33.333%;
+    background-color: rgba(25, 35, 70, 1);
+    margin: 0 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    height: auto;
+}
+
+
+.blue__card-text-item {
+    font-size: 1.8vw;
+    color: rgba(127, 190, 236, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.blue__item-section-2 {
+    display: flex;
+    justify-content: center;
+    /* position: relative;
+    padding-bottom: 58%; */
+}
+
+.radius {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    /* position: absolute; */
+    border-radius: 50%;
+    /* top: 0;
+    left: 0; */
+} 
+
+.blue__item-section-3 {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.blue__card-text-item-2 {
+    width: 60%;
+    font-size: 1vw;
+    color: rgba(103, 159, 244, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+a.card__button {
+    width: 40%;
+    background-color: rgba(72, 141, 244, 1);
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 1vw;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.blue__card-button {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main__personal-skill-container{
+    width: 100%;
+}
+
+.main__skill-container-2{
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+}
+
+.personal__skill-cover-item-3{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.main__personal-skill-text-item-1{
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-size: 58px;
+}
+.main__personal-skill-text-item-2{
+    margin: 0;
+    font-family: 'Robota', sans-serif;
+    font-size: 22px;
+}
+.main__personal-skill-text-item-3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #878a8f;
+}
+
+
+.main__personal-skill-text-item-3:hover{
+    background: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.main__personal-skill-text-item-3-4{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #878a8f;
+}
+
+
+.main__personal-skill-text-item-4{
+    width: 50%;
+    font-family: 'Robota', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.main__personal-skill-item{
+    width: 50%;
+}
+
+.main__personal-skill-item-2{
+    width: 50%;
+}
+
+.main__skill-container-3{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-2{
+    margin-top: 200px;
+}
+
+.personal__skill-cover-item{
+    padding-left: 50px;
+}
+
+.personal__skill-cover-img{
+    display: flex;
+    justify-content: center;
+}
+.personal__skill-cover-text{
+    display: flex;
+    justify-content: center;
+}
+
+.personal__skill-cover-item-4{
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+}
+.main__personal-skill-container-img{
+    padding: 0 50px;
+}
+.main__personal-skill-container-img-2{
+    padding: 0 50px;
+}
+
+.after-skill{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* ********************************hobbyStart************************** */
+
+.main__hobby-container-3{
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.main__hobby-text-item{
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-size: 58px;
+}
+.main__hobby-text-item-2{
+    width: 50%;
+    margin-right: 200px;
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #878a8f;
+}
+
+.main__hobby-cover-item-3{
+    display: flex;
+    justify-content: center;
+}
+a.main__hobby-button{
+    width: 30%;
+    background-color: rgba(72, 141, 244, 1);
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 1vw;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+.main__hobby-cover-item-4{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main__hobby-cover-item-5{
+    width: 50%;
+    padding: 0 5px;
+}
+
+.main__hobby-cover-item-6{
+    width: 50%;
+    padding: 0 5px;
+}
+
+.img__item{
+    max-width: 100%;
+}
+
+.main__footer-cover-item-2{
+    padding:0 10px;
+}
+.main__footer-cover-item{
+    padding:0 10px;
+}
+
+.main__hobby-item{
+    width: 50%;
+    padding-left: 100px;
+}
+
+.main__hobby-item-2{
+    width: 50%;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ********************************hobbyEnd************************** */
+
+
+
+/* ********************************mainEnd************************** */
+
+
+
+/* ********************************footerStart************************** */
+.main__footer-container-4{
+    margin-top: 50px;
+    /* background-color: #28334F; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__footer-item{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.main__footer-cover-item-2{
+    padding: 0 5px;
+}
+
+.main__footer-cover-item-3{
+    padding: 0 5px;
+}
+
+.main__footer-item-2{
+    display: flex;
+    justify-content: center;
+}
+
+.main__footer-text-item{
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-size: 13px;
+}
+
+/* ********************************footerEnd************************** */
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+@media (max-width: 1440px){
+    .main__container-blue-card {
+        max-width: 100%;
+        height: 45vh;
+        margin-top: 50px;
+        display: flex;
+        /* opacity: 0; */
+    }
+
+    .main__container-blue-card-item{
+        width: 33.333%;
+        background-color: rgba(25, 35, 70, 1);
+        margin: 0 90px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+        height: auto;
+    }
+
+
+}
+
+
+@media (max-width: 1680px){
+    .main__container-blue-card {
+        max-width: 100%;
+        height: 58vh;
+        margin-top: 50px;
+        display: flex;
+        /* opacity: 0; */
+    }
+
+    .main__container-blue-card-item{
+        width: 33.333%;
+        background-color: rgba(25, 35, 70, 1);
+        margin: 0 90px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+        height: auto;
+    }
+
+
+}
+
+
+@media (max-width: 1280px){
+
+    .main__personal-skill-text-item-1{
+        font-size: 52px;
+    }
+    .main__personal-skill-text-item-3-4{
+        font-size: 16px;
+    }
+
+    .main__personal-skill-text-item-4{
+        font-size: 20px;
+    }
+
+    .main__hobby-container-3{
+        width: 100%;
+    }
+
+    .main__container-blue-card {
+        max-width: 100%;
+        height: 45vh;
+        margin-top: 50px;
+        display: flex;
+        /* opacity: 0; */
+    }
+
+    .main__container-blue-card-item{
+        width: 33.333%;
+        background-color: rgba(25, 35, 70, 1);
+        margin: 0 50px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+        height: auto;
+    }
+    
+    .main__hobby-item{
+        width: 100%;
+    }
+    .main__hobby-text-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .personal__skill-cover-item-4{
+        flex-direction: column;
+        padding-left: 20%;
+    }
+
+    .after-skill{
+        width: 80%;
+        padding-bottom: 20px;
+    }
+
+    .main__hobby-item-2{
+        width: 100%;
+        margin: 100px 0;
+    }
+
+    .main__hobby-cover-item-5, .main__hobby-cover-item-6{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .main__hobby-container-3{
+        flex-direction: column;
+    }
+    .img__item{
+        width: 45%;
+        object-fit: cover;
+    }
+
+    
+
+}
+
+
